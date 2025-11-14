@@ -1,0 +1,45 @@
+{
+  "name": "co2kam",
+  "version": "1.0.0",
+  "description": "Carbon Footprint Tracker for India - Track, visualize, and reduce your environmental impact",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install && cd carbon-server && npm install && cd ../carbon-client && npm install",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd carbon-server && npm run dev",
+    "dev:client": "cd carbon-client && npm run dev",
+    "build": "cd carbon-client && npm run build",
+    "start": "cd carbon-server && npm start",
+    "lint": "cd carbon-client && npm run lint",
+    "clean": "rm -rf carbon-client/dist carbon-client/node_modules carbon-server/node_modules node_modules",
+    "setup": "npm run install:all"
+  },
+  "keywords": [
+    "carbon-footprint",
+    "sustainability",
+    "environment",
+    "india",
+    "emissions",
+    "climate",
+    "green-tech",
+    "react",
+    "nodejs"
+  ],
+  "author": "CO2Kam Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/co2kam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/co2kam/issues"
+  },
+  "homepage": "https://github.com/your-username/co2kam#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
