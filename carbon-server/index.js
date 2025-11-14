@@ -7,7 +7,7 @@ const { authenticateToken, optionalAuth } = require('./auth-middleware');
 const climatiqService = require('./climatiq-service');
 
 const app = express();
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 let supabase;
 try {
@@ -467,3 +467,4 @@ app.get('/api/debug/search-factors/:query', async (req, res) => {
     });
   }
 });
+
