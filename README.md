@@ -162,21 +162,5 @@ CO2Kam uses India-specific emission factors from the Climatiq API:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- [Climatiq API](https://climatiq.io/) for emission factor data
-- [Supabase](https://supabase.com/) for backend infrastructure
-- [Chart.js](https://www.chartjs.org/) for data visualization
-- [React](https://reactjs.org/) for the frontend framework
-
-## 📞 Support
-
-For support, email support@co2kam.com or create an issue in this repository.
-
----
 
 **Made with 💚 for a sustainable future in India**
