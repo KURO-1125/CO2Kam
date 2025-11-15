@@ -154,13 +154,9 @@ CO2Kam uses India-specific emission factors from the Climatiq API:
 - Input validation and sanitization
 - CORS configuration for secure cross-origin requests
 
-## 🤝 Contributing
+## Demo
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
+See the app in action:  
+[Watch the Demo](https://drive.google.com/file/d/1ooYYmu9AGHlCpOBkiIXDR_npy_lWqLLL/view?usp=sharing)
 
 **Made with 💚 for a sustainable future in India**
