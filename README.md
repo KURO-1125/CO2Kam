@@ -159,4 +159,9 @@ CO2Kam uses India-specific emission factors from the Climatiq API:
 See the app in action:  
 [Watch the Demo](https://drive.google.com/file/d/1ooYYmu9AGHlCpOBkiIXDR_npy_lWqLLL/view?usp=sharing)
 
+## Deployed Link
+
+See the app in action:  
+[Link](https://co-2-kam.vercel.app/login)
+
 **Made with 💚 for a sustainable future in India**
